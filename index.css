@@ -8,8 +8,8 @@ body{
     background-image: url("Screenshot/nisha\ in\ sari.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
     background-attachment: fixed;
+    background-position: center;
 }
 .head{
     background-color: rgb(129, 118, 150);
@@ -66,14 +66,64 @@ body{
     border: 2px solid;
     box-shadow: 3px 4px 5px rgb(26, 26, 36),-3px -4px 5px rgba(230, 92, 28, 0.644);
 }
+#audio{
+    
+    border: 2px solid;
+    background-color: rgb(137, 151, 139);
+    position: relative;
+    top: 40px;
+    width: clamp(25%,100%,100%);
+    
+}
 #audio1{
     border: 2px solid;
     border-radius: 5px;
-    background-image:url("Screenshot/nisha\ in\ sari.png");
-    background-color: aqua;
-    display: inline;
+    background-image: url(Screenshot/nisha.jpeg);
+    background-color: rgb(25, 26, 26);
+    display: block;
+    padding: 20px;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .span{
+    position: relative;
+    left: 200px;
+    margin: 40px;
+    font-size: large;
     font-family:fantasy;
     color: rgb(13, 13, 34);
+}
+#audiosection{
+    color: rgb(100, 68, 57);
+    position: relative;
+    top: 40px;
+    border: 3px solid rgb(3, 3, 255);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: cornsilk;
+}
+#button1{
+    font-family: cursive;
+    color: grey;
+    background-color: lightpink;
+    float: left;
+    margin: 5px;
+}
+html {
+    
+    scroll-behavior: smooth;
+}
+.top{
+    width: clamp(25%,100%,100%);
+    margin-top: 20px;
+    border: 2px solid;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Wanna{
+    color: black;
 }
