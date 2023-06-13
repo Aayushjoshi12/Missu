@@ -88,8 +88,6 @@ body{
     background-size: cover;
 }
 .span{
-    position: relative;
-    left: 200px;
     margin: 40px;
     font-size: large;
     font-family:fantasy;
