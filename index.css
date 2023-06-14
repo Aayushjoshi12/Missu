@@ -10,6 +10,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    touch-action: pan-y;
 }
 .head{
     background-color: rgb(129, 118, 150);
@@ -126,6 +127,6 @@ html {
     color: black;
 }
 #ktmpost{
-    width: fit-content;
+    width: 100%;
     height: fit-content;
 }
