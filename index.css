@@ -140,3 +140,15 @@ html {
 #Dont{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+#last{
+    font-weight: lighter;
+
+}
+#emoji{
+    border: 2px solid pink;
+    font-size: x-large;
+}
+.audiobor{
+    display: inline-block;
+    border: 5px solid darkred;
+}
