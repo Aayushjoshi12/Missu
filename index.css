@@ -57,6 +57,7 @@ body{
     font-family: cursive;
 }
 #bor{
+    
     margin-top: 10px;
     border: 1px solid;
     border-radius: 5px;
@@ -151,4 +152,11 @@ html {
 .audiobor{
     display: inline-block;
     border: 5px solid darkred;
+}
+#bigp{
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    overflow:auto;
+    height: 150px;
 }
