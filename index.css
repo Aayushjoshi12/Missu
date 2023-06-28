@@ -167,3 +167,25 @@ html {
 .End{
     text-shadow: 3px 4px 5px rgb(84, 75, 109)
 }
+#Wanna:hover{
+    color: red;
+    font-size: 20px;
+}
+#button1:hover{
+    font-size: 20px;
+    color: rgb(182, 11, 11);
+}
+#audiosection:hover{
+    color: blue;
+    background-color: brown;
+    border-color: aqua;
+}
+.button2:hover{
+    display: none;
+}
+.Dont1::before{
+    content: "I don't know from where u get it.But i don't want anyone know about this. (Specially U.)";
+}
+.Dont2::before{
+    content: "If U are in mobile recommend to see this in desktop view.";
+}
