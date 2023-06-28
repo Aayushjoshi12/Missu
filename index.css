@@ -160,3 +160,10 @@ html {
     overflow:auto;
     height: 150px;
 }
+#blank{
+    border: 2px solid lightblue;
+    box-shadow: 3px 4px 5px rgb(26, 26, 36)
+}
+.End{
+    text-shadow: 3px 4px 5px rgb(84, 75, 109)
+}
