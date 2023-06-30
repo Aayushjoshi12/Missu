@@ -1,4 +1,5 @@
 * {
+    margin: 0px 1px 1px 1px;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -9,7 +10,6 @@ body{
     background-color: rgb(194, 192, 180);
     height:100px auto;
     width: 2px auto;
-    padding: 6px;
     background-image: url("Screenshot/nisha\ in\ sari.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,9 +128,6 @@ html {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#Wanna{
-    color: black;
-}
 #ktmpost{
     width: 100%;
     height: fit-content;
@@ -183,9 +180,62 @@ html {
 .button2:hover{
     display: none;
 }
-.Dont1::before{
-    content: "I don't know from where u get it.But i don't want anyone know about this. (Specially U.)";
+
+.nav{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(45deg,#e75f74,#000000);
+    height: 65px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.Dont2::before{
-    content: "If U are in mobile recommend to see this in desktop view.";
+.nav .nav1,.nav2,.nav3{
+    margin: 15px;
+    display: inline-block;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+}
+.nav3 a{
+    text-decoration: none;
+    color: white;
+}
+.Introduction{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+.nav1 a:hover{
+    color: blue;
+}
+.nav2 a:hover{
+    color: rgb(255, 0, 0);
+}
+.nav3 a:hover{
+    color: rgb(10, 87, 42);
+}
+header{
+    border-radius: 0px;
+}
+footer{
+    padding-top: 50px;
+    text-align: center;
+    height: 20px;
+    background-color: black;
+}
+#Wanna{
+    border-radius: 50%;
+    padding-top: 40px;
+    text-align: center;
+    height: 100px;
+    background: linear-gradient(45deg,#3d282b,#180896);
+    color: white;
+    text-decoration: wavy;
+    font-size: large;
+}
+.space{
+    height: 50px;
 }
