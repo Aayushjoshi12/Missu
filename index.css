@@ -1,192 +1,12 @@
-* {
-    margin: 0px 1px 1px 1px;
-    box-sizing: border-box;
+*{
     border-radius: 5px;
+    margin: 1px;
+    padding: 0px;
 }
-
-.mo{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(194, 192, 180);
-    height:100px auto;
-    width: 2px auto;
-    background-image: url("Screenshot/nisha\ in\ sari.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    touch-action: pan-y;
-}
-.head{
-    background-color: rgb(129, 118, 150);
-    display: inline;
-    border: 2px solid;
-    box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
-}
-.video{
-    height: 240px;
-    width: auto;
-    float: left;
-    border: 2px solid;
-    margin-right: 20px;
-    
-
-    box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
-}
-
-.video1{
-    box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
-    width: auto;
-    height: 250px ;
-    float: right;
-    border: 2px solid;
-    margin-right: 0px;
-}
-.text{
-    text-shadow: 3px 4px 5px rgb(78, 76, 177);
-    margin-bottom: 30px;
-}
-.h3{
-    border: 1px solid;
-    display: inline;
-    
-}
-.p1{
-    text-overflow:ellipsis;
-    overflow: auto;
-    font-family: cursive;
-}
-#bor{
-    
-    margin-top: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-#rough1{
-    background-color: darkgrey;
-}
-.photo{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid;
-    box-shadow: 3px 4px 5px rgb(26, 26, 36),-3px -4px 5px rgba(230, 92, 28, 0.644);
-}
-.nishaimg{
-    border: 2px solid;
-    box-shadow: 3px 4px 5px rgb(26, 26, 36),-3px -4px 5px rgba(230, 92, 28, 0.644);
-}
-#audio{
-    
-    border: 2px solid;
-    background:linear-gradient(45deg,#3a243f,#1e00ff);
-    position: relative;
-    top: 40px;
-    width: clamp(25%,100%,100%);
-    
-}
-#audio1{
-    border: 2px solid;
-    border-radius: 5px;
-    background-image: url("https://img.freepik.com/premium-vector/simple-music-logo-design-concept-vector_9850-3776.jpg?w=740");
-    display: block;
-    padding: 20px;    
-    background-position: center;
-    background-size: cover;
-}
-.span{
-    margin: 40px;
-    font-size: large;
-    font-family:fantasy;
-    color: rgb(13, 13, 34);
-}
-#audiosection{
-    color: rgb(100, 68, 57);
-    position: relative;
-    top: 40px;
-    border: 3px solid rgb(3, 3, 255);
-    display: inline-block;
-    padding: 5px;
-    border-radius: 6px;
-    background-color: cornsilk;
-}
-#button1{
-    font-family: cursive;
-    color: grey;
-    background-color: lightpink;
-    float: left;
-    margin: 5px;
-}
-html {
-    
-    scroll-behavior: smooth;
-}
-.top{
-    width: clamp(25%,100%,100%);
-    margin-top: 20px;
-    border: 2px solid;
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#ktmpost{
-    width: 100%;
-    height: fit-content;
-}
-#askingaudio{
-    font-style: italic;
-}
-#Dont{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-#last{
-    font-weight: lighter;
-
-}
-#emoji{
-    border: 2px solid pink;
-    font-size: large;
-}
-.audiobor{
-    display: inline-block;
-    border: 5px solid darkred;
-}
-#bigp{
-    margin-top: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-    overflow:auto;
-    height: 150px;
-}
-#blank{
-    border: 2px solid lightblue;
-    box-shadow: 3px 4px 5px rgb(26, 26, 36)
-}
-.End{
-    text-shadow: 3px 4px 5px rgb(84, 75, 109)
-}
-#Wanna:hover{
-    color: red;
-    font-size: 20px;
-}
-#button1:hover{
-    font-size: 20px;
-    color: rgb(182, 11, 11);
-}
-#audiosection:hover{
-    color: blue;
-    background-color: brown;
-    border-color: aqua;
-}
-.button2:hover{
-    display: none;
-}
-
 .nav{
-    width: 100%;
-    position: fixed;
-    background: linear-gradient(45deg,#e75f74,#000000);
+    
+    background-color: black;
     height: 65px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav .nav1,.nav2,.nav3{
     margin: 15px;
@@ -205,8 +25,28 @@ html {
     color: white;
 }
 .Introduction{
-    font-family:'Courier New', Courier, monospace;
+    font-family: cursive;
+    color: rgba(39, 19, 19, 0.856);
+    margin-top: 20px;
     text-transform: capitalize;
+    text-align: left;
+    border: 2px solid;
+    display: block;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(45deg,#d2001a,#7462ff);
+}
+h1{
+    display: inline-block;
+    border: 2px solid rgb(218, 218, 218);
+    text-align: center;
+}
+img{
+    position: relative;
+    top: 6px;
+    height: 53px;
+    width: 60px;
 }
 .nav1 a:hover{
     color: blue;
@@ -217,25 +57,10 @@ html {
 .nav3 a:hover{
     color: rgb(10, 87, 42);
 }
-header{
-    border-radius: 0px;
+.Dont2::before{
+    content: "If U are in mobile recommend to see this in desktop view.";
 }
-footer{
-    padding-top: 50px;
-    text-align: center;
-    height: 20px;
-    background-color: black;
-}
-#Wanna{
-    border-radius: 50%;
-    padding-top: 40px;
-    text-align: center;
-    height: 100px;
-    background: linear-gradient(45deg,#3d282b,#180896);
-    color: white;
-    text-decoration: wavy;
-    font-size: large;
-}
-.space{
-    height: 50px;
+#Dont{
+    font-family: cursive;
+    font-weight: 200;
 }
