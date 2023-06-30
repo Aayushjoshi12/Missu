@@ -78,7 +78,7 @@ body{
 #audio{
     
     border: 2px solid;
-    background-color: rgb(137, 151, 139);
+    background:linear-gradient(45deg,#3a243f,#1e00ff);
     position: relative;
     top: 40px;
     width: clamp(25%,100%,100%);
