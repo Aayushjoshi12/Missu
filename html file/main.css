@@ -16,19 +16,53 @@ body{
     touch-action: pan-y;
 }
 @media screen and (max-width:600px){
+    .p1{
+        font-size: 14px;
+    }
     #ktmpost{
         height: 50vh;
         width: 50vw;
     }
     .head{
-        font-size: 25px;
+        font-size: 20px;
     }
     #rough1{
-        font-size: 25px;
+        font-size: 15px;
+    }
+    .video{
+        height: 150px;
+        width: auto;
+        float: left;
+        border: 2px solid;
+        margin-right: 20px;
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
+    }
+    .video1{
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
+        width: auto;
+        height: 150px ;
+        float: right;
+        border: 2px solid;
+        margin-right: 0px;
     }
 }
 @media screen and (min-width:600px){
-
+    .video{
+        height: 240px;
+        width: 260px;
+        float: left;
+        border: 2px solid;
+        margin-right: 20px;
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
+    }
+    .video1{
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
+        width: 260px;
+        height: 250px ;
+        float: right;
+        border: 2px solid;
+        margin-right: 0px;
+    }
     .img1{
         width: 700px;
         height:150px;
@@ -59,25 +93,7 @@ body{
     border: 2px solid;
     box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
 }
-.video{
-    height: 240px;
-    width: auto;
-    float: left;
-    border: 2px solid;
-    margin-right: 20px;
-    
 
-    box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
-}
-
-.video1{
-    box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
-    width: auto;
-    height: 250px ;
-    float: right;
-    border: 2px solid;
-    margin-right: 0px;
-}
 .text{
     text-shadow: 3px 4px 5px rgb(78, 76, 177);
     margin-bottom: 30px;
@@ -164,10 +180,6 @@ html {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#ktmpost{
-    width: 100%;
-    height: fit-content;
-}
 #askingaudio{
     font-style: italic;
 }
@@ -222,7 +234,7 @@ html {
     left: 0;
     border-radius: 0;
     width: 100%;
-    position: fixed;
+    position:fixed;
     background: linear-gradient(45deg,#e75f74,#000000);
     height: 65px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

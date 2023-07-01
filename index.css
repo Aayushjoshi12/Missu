@@ -1,6 +1,6 @@
 *{
     border-radius: 5px;
-    margin: 1px;
+    margin: 0;
     padding: 0px;
 }
 .nav{
@@ -58,10 +58,11 @@ img{
 .nav3 a:hover{
     color: rgb(10, 87, 42);
 }
-.Dont2::before{
-    content: "If U are in mobile recommend to see this in desktop view.";
-}
 #Dont{
     font-family: cursive;
     font-weight: 200;
 }
+.nav{
+    top: 0;
+    left: 0;
+    border-radius: 0;}
