@@ -3,8 +3,6 @@
     box-sizing: border-box;
     border-radius: 5px;
 }
-
-.mo{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(194, 192, 180);
@@ -17,6 +15,44 @@ body{
     background-position: center;
     touch-action: pan-y;
 }
+@media screen and (max-width:600px){
+    #ktmpost{
+        height: 50vh;
+        width: 50vw;
+    }
+    .head{
+        font-size: 25px;
+    }
+    #rough1{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:600px){
+
+    .img1{
+        width: 700px;
+        height:150px;
+    }
+    #ktmpost{
+        height: 511px;
+    }
+    #photo2{
+        height: 50vh;
+        width: 50vw;
+    }
+    .photo1{
+        width: 50vw;
+        height: 70vh;
+    }
+    .photo{
+        height: 50vh;
+        width: 50vw;
+        display: block;
+    }
+    
+}
+.mo{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
 .head{
     background-color: rgb(129, 118, 150);
     display: inline;
