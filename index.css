@@ -34,6 +34,7 @@
     display: block;
 }
 body{
+    touch-action: pan-y;
     font-family: Arial, Helvetica, sans-serif;
     background:linear-gradient(45deg,#d2001a,#7462ff);
 }
