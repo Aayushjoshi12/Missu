@@ -218,6 +218,9 @@ html {
 }
 
 .nav{
+    top: 0;
+    left: 0;
+    border-radius: 0;
     width: 100%;
     position: fixed;
     background: linear-gradient(45deg,#e75f74,#000000);
