@@ -125,8 +125,8 @@ body{
         height: 70vh;
     }
     .photo{
-        height: 50vh;
-        width: 25vw;
+        height: 60vh;
+        width: 55vw;
         display: block;
     }
     
@@ -164,8 +164,8 @@ body{
     background-color: darkgrey;
 }
 .photo{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: 1px solid;
     box-shadow: 3px 4px 5px rgb(26, 26, 36),-3px -4px 5px rgba(230, 92, 28, 0.644);
 }
