@@ -16,6 +16,10 @@ body{
     touch-action: pan-y;
 }
 @media screen and (max-width:600px){
+    .best{
+        height: 117px;
+        width: 100vw;
+    }
     .nav{
         font-size: 15px;;
         top: 0;
@@ -68,6 +72,10 @@ body{
     }
 }
 @media screen and (min-width:600px){
+    .best{
+        width: 700px;
+        height:150px;
+    }
     .nav{
         display: flex;
         justify-content:space-evenly;
