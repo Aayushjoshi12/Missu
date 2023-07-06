@@ -13,14 +13,23 @@
     display: inline-block;
 }
 .nav1 a{
+    transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
+    transition-property: font-size,background-color,color,border,padding;
+    transition-duration: 0.5s;
     text-decoration: none;
     color: white;
 }
 .nav2 a{
+    transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
+    transition-property: font-size,background-color,color,border,padding;
+    transition-duration: 0.5s;
     text-decoration: none;
     color: white;
 }
 .nav3 a{
+    transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
+    transition-property: font-size,background-color,color,border,padding;
+    transition-duration: 0.5s;
     text-decoration: none;
     color: white;
 }
@@ -51,11 +60,23 @@ img{
 }
 .nav1 a:hover{
     color: blue;
+    padding:5px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
 }
 .nav2 a:hover{
+    padding:5px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
     color: rgb(255, 0, 0);
 }
 .nav3 a:hover{
+    padding:5px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
     color: rgb(10, 87, 42);
 }
 #Dont{

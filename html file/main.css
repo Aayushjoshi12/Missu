@@ -15,63 +15,6 @@ body{
     background-position: center;
     touch-action: pan-y;
 }
-@media screen and (max-width:600px){
-    .best{
-        height: 117px;
-        width: 100vw;
-    }
-    .nav{
-        font-size: 15px;;
-        top: 0;
-        left: 0;
-        border-radius: 0;
-        width: 100%;
-        position:fixed;
-        background: linear-gradient(45deg,#1f1f1f,#220d0d);
-        height: 60px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    .a1{
-
-        color: #1e00ff;
-    }
-    .nav .nav1,.nav2,.nav3{
-        margin: 15px;
-        display: inline-block;
-        justify-content: space-evenly;
-        font-size: 14px;
-    }
-    .p1{
-        font-size: 14px;
-    }
-    #ktmpost{
-        height: 50vh;
-        width: 70vw;
-    }
-    .head{
-        font-size: 20px;
-    }
-    #rough1{
-        font-size: 15px;
-    }
-    .video{
-        height: 150px;
-        width: auto;
-        float: left;
-        border: 2px solid;
-        margin-right: 20px;
-        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
-    }
-    .video1{
-        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
-        width: auto;
-        height: 150px ;
-        float: right;
-        border: 2px solid;
-        margin-right: 0px;
-    }
-}
-@media screen and (min-width:600px){
     .best{
         width: 700px;
         height:150px;
@@ -124,13 +67,6 @@ body{
         width: 50vw;
         height: 70vh;
     }
-    .photo{
-        height: 60vh;
-        width: 55vw;
-        display: block;
-    }
-    
-}
 .mo{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .head{
@@ -164,6 +100,9 @@ body{
     background-color: darkgrey;
 }
 .photo{
+    height: 60vh;
+    width: 55vw;
+    display: block;
     margin-top: 15px;
     margin-bottom: 15px;
     border: 1px solid;
@@ -277,14 +216,23 @@ html {
 
 
 .nav1 a{
+    transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
+    transition-property: font-size,background-color,color,border,padding;
+    transition-duration: 0.5s;
     text-decoration: none;
     color: white;
 }
 .nav2 a{
+    transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
+    transition-property: font-size,background-color,color,border,padding;
+    transition-duration: 0.5s;
     text-decoration: none;
     color: white;
 }
 .nav3 a{
+    transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
+    transition-property: font-size,background-color,color,border,padding;
+    transition-duration: 0.5s;
     text-decoration: none;
     color: white;
 }
@@ -293,12 +241,24 @@ html {
     text-transform: capitalize;
 }
 .nav1 a:hover{
+    padding:5px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
     color: blue;
 }
 .nav2 a:hover{
+    padding:5px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
     color: rgb(255, 0, 0);
 }
 .nav3 a:hover{
+    padding:5px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
     color: rgb(10, 87, 42);
 }
 header{
@@ -322,4 +282,76 @@ footer{
 }
 .space{
     height: 50px;
+}
+@media screen and (max-width:600px){
+    .best{
+        height: 11vh;
+        width: 100vw;
+    }
+    .nav{
+        font-size: 15px;;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        width: 100%;
+        position:fixed;
+        background: linear-gradient(45deg,#1f1f1f,#220d0d);
+        height: 60px;
+        justify-content: start;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .a1{
+
+        color: #1e00ff;
+    }
+    .nav .nav1,.nav2,.nav3{
+        margin: 15px;
+        display: inline-block;
+        justify-content: space-evenly;
+        font-size: 14px;
+    }
+    .p1{
+        font-size: 14px;
+    }
+    #ktmpost{
+        height: 50vh;
+        width: 70vw;
+    }
+    .head{
+        font-size: 20px;
+    }
+    #rough1{
+        font-size: 15px;
+    }
+    .video{
+        height: 150px;
+        width: auto;
+        float: left;
+        border: 2px solid;
+        margin-right: 20px;
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
+    }
+    .video1{
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
+        width: auto;
+        height: 150px ;
+        float: right;
+        border: 2px solid;
+        margin-right: 0px;
+    }
+    .photo{
+        height: 60vh;
+        width: 100vw;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 1px solid;
+        box-shadow: 3px 4px 5px rgb(26, 26, 36),-3px -4px 5px rgba(230, 92, 28, 0.644);
+    }
+    .photo1{
+        width: 100vw;
+    }
+    #photo2{
+        width: 100vw;
+    }
 }
