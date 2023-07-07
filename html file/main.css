@@ -440,7 +440,6 @@ footer{
     color: rgb(255, 0, 0);
 }
 @media screen and (max-width:600px){
-<<<<<<< HEAD
     #scrool{
         width: 100px;
         font-size: small;
@@ -460,7 +459,6 @@ footer{
     .para{
         font-size: small;
     }
-=======
     #photo2{
         height: 40vh;
         width: 50vw;
@@ -469,7 +467,6 @@ footer{
         width: 100vw;
         height:125px;
         }
->>>>>>> 70ec117765fda53f8cffdd6704d3f690f4d3a9ff
     .best{
         height: 11vh;
         width: 100vw;
