@@ -284,6 +284,10 @@ footer{
     height: 50px;
 }
 @media screen and (max-width:600px){
+        .img1{
+        width: 100vw;
+        height:150px;
+        }
     .best{
         height: 11vh;
         width: 100vw;
