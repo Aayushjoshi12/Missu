@@ -284,6 +284,10 @@ footer{
     height: 50px;
 }
 @media screen and (max-width:600px){
+    #photo2{
+        height: 40vh;
+        width: 50vw;
+    }
         .img1{
         width: 100vw;
         height:125px;
