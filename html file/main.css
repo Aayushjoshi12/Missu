@@ -347,23 +347,6 @@ footer{
         background-size: cover;
         background-image: url("https://rare-gallery.com/thumbs/379737-4k-wallpaper.jpg");
     }
-    25%{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/16/671/726/lionel-messi-football-barcelona-hd-wallpaper-preview.jpg");
-    }
-    50%{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/449/353/223/lionel-messi-4k-wallpaper-preview.jpg");
-    }
-    75%{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/339/191/682/fc-barcelona-soccer-clubs-soccer-lionel-messi-wallpaper-preview.jpg");
-    }
     100%{
         background-repeat: no-repeat;
         background-size: cover;
