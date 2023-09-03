@@ -341,13 +341,13 @@ footer{
 }
 /* Background */
 @keyframes messi {
-    0%{
+    from{
 
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url("https://rare-gallery.com/thumbs/379737-4k-wallpaper.jpg");
+        background-image: url("/Screenshot/messiimg.jpg");
     }
-    100%{
+    to{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
