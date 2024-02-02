@@ -5,10 +5,10 @@
     border-radius: 5px;
 }
 .nav{
-    box-shadow: rgba(38, 69, 155, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 1cm;
+    box-shadow: rgba(39, 7, 7, 0.507) 0px 54px 55px, rgba(128, 24, 24, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     left: 0;
-    background-color: #5047a1;
+    border: 0.1cm orange solid;
+    background:linear-gradient(45deg,#d62727,#6b58f7);
     top: 0px;
     position: fixed;
     height: 10vh;
@@ -27,15 +27,16 @@
     background-color: #ffffff00;
 }
 .nav ul li a{
-    border:solid 0.1cm rgb(255, 255, 255);
-    border-radius: 20%;
-    font-size: large;
+    border-radius: 7%;
+    margin: 2px;
+    border: 2px solid pink;
+    font-size: larger;
     text-decoration: none;
     transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
     transition-property: font-size,background-color,color,border,padding;
     transition-duration: 0.5s;
     text-decoration: none;
-    color: rgb(236, 92, 8);
+    color: rgb(0, 0, 0);
 }
 
 .nav ul li a:hover{
@@ -48,9 +49,9 @@
 }
 .nav ul li:hover{
     box-shadow:
-    0 0 60px 30px #fff,  /* inner white */
-    0 0 100px 60px #f0f, /* middle magenta */
-    0 0 140px 90px #0ff; /* outer cyan */
+    0 0 30px 15px #fff,  /* inner white */
+    0 0 50px 30px #f0f, /* middle magenta */
+    0 0 70px 45px #0ff; /* outer cyan */
 
     transform: rotate(360deg);
 }
@@ -64,15 +65,15 @@
 @keyframes story {
     from{
         box-shadow:
-        0 0 10px 5px #ff5959,  /* inner white */
-        0 0 20px 10px rgb(102, 52, 102), /* middle magenta */
-        0 0 30px 15px rgb(10, 36, 36); /* outer cyan */
+        0 0 5px 15px #ff5959,  /* inner white */
+        0 0 10px 15px rgb(102, 52, 102), /* middle magenta */
+        0 0 35px 15px rgb(10, 36, 36); /* outer cyan */
     }
     to{
         box-shadow:
-        0 0 20px 15px #fff,  /* inner white */
-        0 0 40px 30px rgb(126, 79, 79), /* middle magenta */
-        0 0 60px 45px rgb(5, 43, 5); /* outer cyan */
+        0 0 10px 15px #fff,  /* inner white */
+        0 0 20px 30px rgb(126, 79, 79), /* middle magenta */
+        0 0 30px 35px rgb(5, 43, 5); /* outer cyan */
     }
 }
 body{
@@ -162,9 +163,6 @@ body{
     text-overflow:ellipsis;
     overflow: auto;
     font-family: cursive;
-}
-#bor{
-    
     margin-top: 10px;
     border: 1px solid;
     border-radius: 5px;
@@ -323,8 +321,6 @@ footer{
     animation-direction: alternate;
     height: 105svh;
     width: 98.3svw;
-    background-image: url("https://rare-gallery.com/thumbs/379737-4k-wallpaper.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     animation-name: messi;
     animation-duration: 15s;
