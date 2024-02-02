@@ -35,7 +35,6 @@
     transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
     transition-property: font-size,background-color,color,border,padding;
     transition-duration: 0.5s;
-    text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
@@ -184,7 +183,6 @@ body{
     box-shadow: 3px 4px 5px rgb(26, 26, 36),-3px -4px 5px rgba(230, 92, 28, 0.644);
 }
 #audio{
-    
     border: 2px solid;
     background:linear-gradient(45deg,#3a243f,#1e00ff);
     position: relative;
@@ -276,22 +274,13 @@ html {
     font-size: 20px;
     color: rgb(182, 11, 11);
 }
-#audiosection:hover{
-    color: blue;
-    background-color: brown;
-    border-color: aqua;
-}
 .button2:hover{
     display: none;
 }
-
-
-
 .Introduction{
     font-family:'Courier New', Courier, monospace;
     text-transform: capitalize;
 }
-
 header{
     border-radius: 0px;
 }
