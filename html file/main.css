@@ -2,15 +2,118 @@
     padding: 0px;
     margin: 0px 1px 1px 1px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     border-radius: 5px;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(194, 192, 180);
+    height:100px auto;
+    width: 2px auto;
+    background-image: url("/Screenshot/nisha\ in\ sari.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    touch-action: pan-y;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-direction: alternate;
+    height: 105svh;
+    width: 98.3svw;
+    background-size: cover;
+    animation-name: messi;
+    animation-duration: 15s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    animation-iteration-count: infinite;
+}
+/* Background */
+@keyframes messi {
+    from{
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("/Screenshot/messiimg.jpg");
+    }
+    to{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url("/Screenshot/messi.jpg");
+    }
+}
+.nav .nav1,.nav2,.nav3{
+    margin: 15px;
+    display: inline-block;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+#scrool{
+    padding: 10px;
+    font-weight: 600;
+    font-family: cursive;
+    position: relative;
+    right: 50vw;
+    top: 40vh;
+    color: #928c8c;
+    border: 2px solid white;
+    background-color: #1f1f1f;
+    line-height: 50px;
+}
+
+.dot{
+    margin: 0;
+    padding: 0;
+    animation-direction: alternate;
+    animation-name: dot;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.dot1{
+    animation-direction: alternate;
+    animation-name: dot;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.dot2{
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-name: dot;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+@keyframes dot {
+    from{
+        transform: translateY(3px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
 .nav{
-    box-shadow: rgba(39, 7, 7, 0.507) 0px 54px 55px, rgba(128, 24, 24, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 0;
     left: 0;
-    border: 0.1cm orange solid;
-    background:linear-gradient(45deg,#d62727,#6b58f7);
     top: 0px;
     position: fixed;
+    border: 0.1cm orange solid;
+    background:linear-gradient(45deg,#d62727,#6b58f7);
+    background-color: rgba(255, 255, 255, 0.281);
     height: 10vh;
     width: 100%;
 }
@@ -22,20 +125,20 @@
 }
 .nav ul li{
     transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
-    transition-property:transform,box-shadow;
+    transition-property:transform;
     transition-duration: 5s;
     background-color: #ffffff00;
 }
 .nav ul li a{
+    font-size: large;
     border-radius: 7%;
-    margin: 2px;
+    padding: 3px;
     border: 2px solid pink;
-    font-size: larger;
     text-decoration: none;
     transition-timing-function: cubic-bezier(0.53, 3.29, 0.02, 0.17);
     transition-property: font-size,background-color,color,border,padding;
     transition-duration: 0.5s;
-    color: rgb(0, 0, 0);
+    color: rgb(7, 4, 4);
 }
 
 .nav ul li a:hover{
@@ -75,18 +178,7 @@
         0 0 30px 35px rgb(5, 43, 5); /* outer cyan */
     }
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(194, 192, 180);
-    height:100px auto;
-    width: 2px auto;
-    background-image: url("/Screenshot/nisha\ in\ sari.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    touch-action: pan-y;
-}
+
     .best{
         width: 700px;
         height:150px;
@@ -222,10 +314,6 @@ body{
     float: left;
     margin: 5px;
 }
-html {
-    
-    scroll-behavior: smooth;
-}
 .top{
     width: clamp(25%,100%,100%);
     margin-top: 20px;
@@ -303,34 +391,6 @@ footer{
 .space{
     height: 50px;
 }
-.background{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation-direction: alternate;
-    height: 105svh;
-    width: 98.3svw;
-    background-size: cover;
-    animation-name: messi;
-    animation-duration: 15s;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    animation-iteration-count: infinite;
-}
-/* Background */
-@keyframes messi {
-    from{
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url("/Screenshot/messiimg.jpg");
-    }
-    to{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-image: url("/Screenshot/messi.jpg");
-    }
-}
 .para{
 
     padding: 10px;
@@ -403,81 +463,31 @@ footer{
     }
 
 }
-#scrool{
-    padding: 10px;
-    font-weight: 600;
-    font-family: cursive;
-    position: relative;
-    right: 50vw;
-    top: 40vh;
-    color: #928c8c;
-    border: 2px solid white;
-    background-color: #1f1f1f;
-    line-height: 50px;
-}
-
-.dot{
-    margin: 0;
-    padding: 0;
-    animation-direction: alternate;
-    animation-name: dot;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    display: inline-block;
-    border-radius: 50%;
-    border: 2px solid white;
-}
-.dot1{
-    animation-direction: alternate;
-    animation-name: dot;
-    animation-delay: 0.3s;
-    animation-timing-function: linear;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    display: inline-block;
-    border-radius: 50%;
-    border: 2px solid white;
-}
-.dot2{
-    animation-delay: 0.5s;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    animation-name: dot;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    display: inline-block;
-    border-radius: 50%;
-    border: 2px solid white;
-}
-@keyframes dot {
-    from{
-        transform: translateY(3px);
-    }
-    to{
-        transform: translateY(10px);
-    }
-}
 
 @media screen and (max-width:600px){
+    .video{
+        height: 150px;
+        width: auto;
+        float: left;
+        border: 2px solid;
+        margin-right: 20px;
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
+    }
+    .video1{
+        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
+        width: auto;
+        height: 150px ;
+        float: right;
+        border: 2px solid;
+        margin-right: 0px;
+    }
+    .nav ul{
+        justify-content: start;
+        display: flex;
+    }
     .nav ul li a{
         transition: none;
         animation: none;
-    }
-    .nav ul li a:hover{
-        transition: none;
-        animation: none;
-        padding: 1px;
-    }
-    .nav ul li:hover{
-        transition: none;
-        animation: none;
-        box-shadow: none;
-    }
-    .nav ul li{
-        transition: none;
-        animation: none;
-        margin-right: 20px;
     }
     .story1{
         transition: none;
@@ -487,10 +497,6 @@ footer{
         width: 100px;
         font-size: small;
         line-height: 20px;
-    }
-    .nav ul{
-        justify-content: start;
-        display: flex;
     }
     .borderback .animation{
         display: inline-block;
@@ -503,7 +509,7 @@ footer{
         height: 40vh;
         width: 50vw;
     }
-        .img1{
+    .img1{
         width: 100vw;
         height:125px;
         }
@@ -534,22 +540,7 @@ footer{
     #rough1{
         font-size: 15px;
     }
-    .video{
-        height: 150px;
-        width: auto;
-        float: left;
-        border: 2px solid;
-        margin-right: 20px;
-        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(105, 204, 12, 0.445);
-    }
-    .video1{
-        box-shadow: 3px 4px 5px blue,-3px -4px 5px rgba(230, 92, 28, 0.644);
-        width: auto;
-        height: 150px ;
-        float: right;
-        border: 2px solid;
-        margin-right: 0px;
-    }
+
     .photo{
         height: 40vh;
         width: 100vw;
